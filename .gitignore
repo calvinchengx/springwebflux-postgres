@@ -214,3 +214,6 @@ local.properties
 .history
 
 # End of https://www.gitignore.io/api/visualstudiocode
+
+# flyway migration files are located here, so it is tracked by git
+!src/main/resources/db/migration/*
